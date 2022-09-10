@@ -4,12 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-void main()
+char main(void)
 {
 
-	
-	for (char c = 'a'; c <= 'z'; ch++)
-		putchar(ch);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 		putchar('\n');
 
 return (0);
