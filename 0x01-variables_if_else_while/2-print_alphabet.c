@@ -1,19 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
- * Return: 0
- */
+* main - Prints alphabets in lowercase
+* Return: 0
+**/
+
 int main(void)
 {
-	char c = 'a';
+	char l_letter;
 
-	while (c <= 'z')
+	for (l_letter = 97; l_letter <= 122; l_letter++)
 	{
-		putchar(c);
-		c++;
+		putchar(l_letter);
 	}
 
 	putchar('\n');
-	
+
+	return (0);
+}
