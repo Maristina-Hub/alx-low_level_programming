@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strstr - function locate
  * @haystack: pointer to char
@@ -29,4 +28,4 @@ char *_strstr(char *haystack, char *needle)
 	}
 
 	return (0);
-}  
+}
