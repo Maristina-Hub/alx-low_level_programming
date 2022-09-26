@@ -1,6 +1,4 @@
-#include "main.h"
 #include <stdio.h>
-
 /**
  * print_diagsums - print diagonal sums
  * @a: a pointer
@@ -18,5 +16,3 @@ void print_diagsums(int *a, int size)
 	printf("%d, ", sum1);
 	printf("%d\n", sum2);
 }
-Footer
-© 2022 GitHub, Inc.
