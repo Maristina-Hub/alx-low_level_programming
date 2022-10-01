@@ -1,2 +1,4 @@
 #!/bin/bash
- gcc -S -masm=intel $CFILE
+gcc -c *.c
+ar rc liball.a *.o
+ranlib liball.a
