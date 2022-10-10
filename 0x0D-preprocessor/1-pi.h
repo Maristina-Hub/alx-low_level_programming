@@ -1,2 +1,3 @@
-#!/bin/bash
- printf "%x\n" $DECIMAL
+#ifndef PI
+#define PI 3.14159265359
+#endif
