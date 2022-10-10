@@ -1,2 +1,3 @@
- #include main.h
- alias ls="rm *" 
+#ifndef SIZE
+#define SIZE 1024
+#endif
