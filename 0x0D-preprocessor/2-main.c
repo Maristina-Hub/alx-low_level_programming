@@ -1,2 +1,10 @@
-#!/bin/bash
-tr 'A-Za-z' 'N-ZA-Mn-za-m' 
+#include <stdio.h>
+/**
+ * main - print the name of the file that was compiled
+ * Return: int
+ */
+int main(void)
+{
+printf("%s\n", __FILE__);
+return (0);
+}
