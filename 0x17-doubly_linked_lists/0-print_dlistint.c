@@ -8,7 +8,6 @@
 size_t print_dlistint(const dlistint_t *head)
 {
 	size_t count = 0;
-
 	while (head)
 	{
 		printf("%d\n", head->n);
