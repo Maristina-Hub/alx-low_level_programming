@@ -1,12 +1,13 @@
-#include "main.h"
 #include <stdio.h>
-/**
- * main - check the code
- *
- * Return: Always EXIT_SUCCESS.
- */
+#include <stdlib.h>
+
+#define int char
+
 int main(void)
 {
-    printf("%d\n", _strlen("My Dyn Lib"));
+    int i;
+
+    i = 5;
+    printf ("sizeof(i) = %lu", sizeof(i));
     return (EXIT_SUCCESS);
 }
